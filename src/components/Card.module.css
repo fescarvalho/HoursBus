@@ -1,0 +1,91 @@
+.cardMain {
+  min-width: 25rem;
+  margin: 5rem 10rem;
+  background-color: #7f8595;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cardTitle {
+  width: 90%;
+  padding: 0.8rem;
+  color: #fff;
+  background-color: #42435a;
+  border-radius: 5px;
+  top: -65px;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-family: Poppins, "sans-serif";
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 45px 0 20px 0;
+}
+
+.list li {
+  width: 10rem;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-family: Poppins, "sans-serif";
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list .active {
+  width: 10rem;
+  margin-top: 10px;
+  background-color: #ee9f2e;
+  border-radius: 5px;
+  font-family: Poppins, "sans-serif";
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContentFalse {
+  display: none;
+}
+.cardContent p {
+  font-family: Poppins, "sans-serif";
+  font-size: 1rem;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContent span {
+  width: 10px;
+  height: 10px;
+  background-color: #ee9f2e;
+  margin-right: 5px;
+}
+
+@media (max-width: 500px) {
+  .cardContent p {
+    font-size: 0.8rem;
+  }
+
+  .cardMain {
+    min-width: 20rem;
+    margin-bottom: 2rem;
+    background-color: #7f8595;
+    padding: 1rem;
+  }
+}

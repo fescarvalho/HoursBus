@@ -1,0 +1,20 @@
+.app {
+  margin: 0 auto;
+  width: 80vw;
+  background-color: #edf5f4;
+}
+
+.cards {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .app {
+    width: 100%;
+  }
+}
