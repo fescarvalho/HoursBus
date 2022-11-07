@@ -11,12 +11,18 @@ function App() {
     <>
       <div className="app">
         <Header />
+        <p className="aviso">
+          <span>ATENÇÃO!!!</span>
+          Horários seguem a mudança feita dia 22/02/2022, de acordo com o aviso pregado no
+          guichê da rodoviária de Natividade-RJ
+        </p>
         <div className="cards">
-          <Card titleFrom="Porciuncula" titleTo="Itaperuna" />
-          <Card1 titleFrom="Itaperuna" titleTo="Porciuncula" />
-          <Card2 titleFrom="VarreSai" titleTo="Itaperuna" />
-          <Card3 titleFrom="Itaperuna" titleTo="VarreSai" />
+          <Card titleFrom="Porciúncula" titleTo="Itaperuna" />
+          <Card1 titleFrom="Itaperuna" titleTo="Porciúncula" />
+          <Card2 titleFrom="Varre-Sai" titleTo="Itaperuna" />
+          <Card3 titleFrom="Itaperuna" titleTo="Varre-Sai" />
         </div>
+
         <Footer />
       </div>
     </>

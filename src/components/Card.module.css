@@ -35,7 +35,33 @@
   margin: 45px 0 20px 0;
 }
 
-.list li {
+.cardContent h2 {
+  font-family: Poppins, "sans-serif";
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.list h2 span,
+.listDown h2 span {
+  width: 10px;
+  height: 2px;
+  background-color: #f0d467;
+  margin-right: 5px;
+}
+.noite {
+  margin-top: 1rem;
+}
+.listDown {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.list li,
+.listDown li {
   width: 10rem;
   margin-top: 10px;
   background-color: #fff;
@@ -46,7 +72,8 @@
   justify-content: center;
   align-items: center;
 }
-.list .active {
+.list .active,
+.listDown .active {
   width: 10rem;
   margin-top: 10px;
   background-color: #ee9f2e;
@@ -63,7 +90,7 @@
 }
 .cardContent p {
   font-family: Poppins, "sans-serif";
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #000;
   display: flex;
   justify-content: center;
@@ -71,21 +98,26 @@
 }
 
 .cardContent span {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   background-color: #ee9f2e;
   margin-right: 5px;
 }
 
 @media (max-width: 500px) {
   .cardContent p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .cardMain {
-    min-width: 20rem;
+    min-width: 24rem;
     margin-bottom: 2rem;
     background-color: #7f8595;
-    padding: 1rem;
+    padding: 1.2rem;
+  }
+  .cardContent span {
+    width: 12px;
+    height: 12px;
+    background-color: #ee9f2e;
   }
 }

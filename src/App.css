@@ -2,6 +2,7 @@
   margin: 0 auto;
   width: 80vw;
   background-color: #edf5f4;
+  text-align: center;
 }
 
 .cards {
@@ -12,7 +13,15 @@
   flex-direction: row;
   align-items: center;
 }
-
+.app .aviso {
+  font-family: Poppins, sans-serif;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+.app .aviso span {
+  display: block;
+  font-size: 1.2rem;
+}
 @media (max-width: 900px) {
   .app {
     width: 100%;

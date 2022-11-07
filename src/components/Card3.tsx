@@ -20,13 +20,24 @@ const Card = ({ titleTo, titleFrom }: CardProps) => {
       </div>
       <div className={styles.cardContent}>
         <ul className={styles.list}>
+          <h2>
+            <span></span> Manhã<span></span>
+          </h2>
           <li className={styles.active}>{Horarios.ItaperunaVarreSai[0]}</li>
           <li>{Horarios.ItaperunaVarreSai[1]}</li>
+        </ul>
+        <ul className={styles.listDown}>
+          <h2>
+            <span></span> Tarde<span></span>
+          </h2>
           <li className={styles.active}>{Horarios.ItaperunaVarreSai[2]}</li>
+          <h2 className={styles.noite}>
+            <span></span> Noite<span></span>
+          </h2>
           <li className={styles.active}>{Horarios.ItaperunaVarreSai[3]}</li>
         </ul>
         <p>
-          <span></span>Tambem aos domingos e feriados
+          <span></span>Também aos domingos e feriados
         </p>
       </div>
     </div>
