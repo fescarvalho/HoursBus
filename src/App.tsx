@@ -1,8 +1,10 @@
 import "./App.css";
-import Card from "./components/Card";
-import Card1 from "./components/Card1";
-import Card2 from "./components/Card2";
-import Card3 from "./components/Card3";
+
+import CardItaVar from "./components/CardItaVar";
+import CardVarIta from "./components/CardVarIta";
+import CardItaPorc from "./components/CardItaPorc";
+import CardPorcIta from "./components/CardPorcIta";
+
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
@@ -17,10 +19,10 @@ function App() {
           guichê da rodoviária de Natividade-RJ
         </p>
         <div className="cards">
-          <Card titleFrom="Porciúncula" titleTo="Itaperuna" />
-          <Card1 titleFrom="Itaperuna" titleTo="Porciúncula" />
-          <Card2 titleFrom="Varre-Sai" titleTo="Itaperuna" />
-          <Card3 titleFrom="Itaperuna" titleTo="Varre-Sai" />
+          <CardPorcIta titleFrom="Porciúncula" titleTo="Itaperuna" />
+          <CardItaPorc titleFrom="Itaperuna" titleTo="Porciúncula" />
+          <CardVarIta titleFrom="Varre-Sai" titleTo="Itaperuna" />
+          <CardItaVar titleFrom="Itaperuna" titleTo="Varre-Sai" />
         </div>
 
         <Footer />

@@ -2,9 +2,9 @@ import styles from "./Card.module.css";
 import { FaArrowDown } from "react-icons/fa";
 import { CardProps } from "../interface";
 import { useState } from "react";
-import { Horarios } from "./../hours-mock.json";
+import { VarreSaiItaperuna } from "./../hours-mock.json";
 
-const Card = ({ titleTo, titleFrom }: CardProps) => {
+const CardVarIta = ({ titleTo, titleFrom }: CardProps) => {
   const [show, setShow] = useState(false);
 
   const showClass = () => {
@@ -21,20 +21,23 @@ const Card = ({ titleTo, titleFrom }: CardProps) => {
       <div className={styles.cardContent}>
         <ul className={styles.list}>
           <h2>
-            <span></span> Manhã<span></span>
+            <span></span>Manha<span></span>
           </h2>
-          <li className={styles.active}>{Horarios.ItaperunaVarreSai[0]}</li>
-          <li>{Horarios.ItaperunaVarreSai[1]}</li>
+          {VarreSaiItaperuna.Manhã.map((item) => (
+            <li className={`${item.fds ? styles.active : ""}`} key={item.hr}>
+              {item.hr}
+            </li>
+          ))}
         </ul>
         <ul className={styles.listDown}>
           <h2>
-            <span></span> Tarde<span></span>
+            <span></span>Tarde<span></span>
           </h2>
-          <li className={styles.active}>{Horarios.ItaperunaVarreSai[2]}</li>
-          <h2 className={styles.noite}>
-            <span></span> Noite<span></span>
-          </h2>
-          <li className={styles.active}>{Horarios.ItaperunaVarreSai[3]}</li>
+          {VarreSaiItaperuna.Tarde.map((item) => (
+            <li className={`${item.fds ? styles.active : ""}`} key={item.hr}>
+              {item.hr}
+            </li>
+          ))}
         </ul>
         <p>
           <span></span>Também aos domingos e feriados
@@ -44,4 +47,4 @@ const Card = ({ titleTo, titleFrom }: CardProps) => {
   );
 };
 
-export default Card;
+export default CardVarIta;

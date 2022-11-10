@@ -1,30 +1,148 @@
 {
-  "Horarios": {
-    "PorciunculaItaperuna": [
-      "05:00h",
-      "06:00h",
-      "07:30h",
-      "09:00h",
-      "10:30h",
-      "12:30h",
-      "13:30h",
-      "15:00h",
-      "16:30h",
-      "18:00h"
+  "PorciunculaItaperuna": {
+    "Manhã": [
+      {
+        "hr": "05:00",
+        "fds": true
+      },
+      {
+        "hr": "06:00",
+        "fds": true
+      },
+      {
+        "hr": "07:30h",
+        "fds": true
+      },
+      {
+        "hr": "09:00h",
+        "fds": false
+      },
+
+      {
+        "hr": "10:30h",
+        "fds": true
+      }
     ],
-    "ItaperunaPorciuncula": [
-      "06:00h",
-      "07:30h",
-      "09:00h",
-      "11:00h",
-      "12:00h",
-      "13:30h",
-      "15:00h",
-      "16:30h",
-      "18:00h",
-      "19:00h"
+    "Tarde": [
+      {
+        "hr": "12:30h",
+        "fds": false
+      },
+      {
+        "hr": "13:30h",
+        "fds": true
+      },
+      {
+        "hr": "15:00h",
+        "fds": false
+      },
+      {
+        "hr": "16:30h",
+        "fds": true
+      }
     ],
-    "VarreSaiItaperuna": ["06:00h", "09:30h", "12:00h", "16:00h"],
-    "ItaperunaVarreSai": ["08:00h", "10:30h", "14:00h", "18:30h"]
+    "Noite": [
+      {
+        "hr": "18:00h",
+        "fds": false
+      }
+    ]
+  },
+
+  "ItaperunaPorciuncula": {
+    "Manhã": [
+      {
+        "hr": "06:00",
+        "fds": true
+      },
+      {
+        "hr": "07:30h",
+        "fds": false
+      },
+      {
+        "hr": "09:00h",
+        "fds": true
+      },
+
+      {
+        "hr": "11:00h",
+        "fds": false
+      }
+    ],
+    "Tarde": [
+      {
+        "hr": "12:00h",
+        "fds": true
+      },
+
+      {
+        "hr": "13:30h",
+        "fds": false
+      },
+      {
+        "hr": "15:00h",
+        "fds": true
+      },
+      {
+        "hr": "16:30h",
+        "fds": false
+      }
+    ],
+    "Noite": [
+      {
+        "hr": "18:00h",
+        "fds": true
+      },
+      {
+        "hr": "19:00h",
+        "fds": true
+      }
+    ]
+  },
+
+  "VarreSaiItaperuna": {
+    "Manhã": [
+      {
+        "hr": "06:00",
+        "fds": true
+      },
+      {
+        "hr": "09:30h",
+        "fds": false
+      }
+    ],
+
+    "Tarde": [
+      {
+        "hr": "12:00h",
+        "fds": true
+      },
+      {
+        "hr": "16:00h",
+        "fds": true
+      }
+    ]
+  },
+  "ItaperunaVarreSai": {
+    "Manhã": [
+      {
+        "hr": "08:00h",
+        "fds": true
+      },
+      {
+        "hr": "10:30h",
+        "fds": false
+      }
+    ],
+    "Tarde": [
+      {
+        "hr": "14:00h",
+        "fds": true
+      },
+      {
+        "hr": "18:30h",
+        "fds": true
+      }
+    ]
   }
 }
