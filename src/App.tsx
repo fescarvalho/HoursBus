@@ -37,8 +37,8 @@ function App() {
             </p>
             <div className="cards">
               <CardPorcIta titleFrom="Porciúncula" titleTo="Itaperuna" />
-              <CardItaPorc titleFrom="Itaperuna" titleTo="Porciúncula" />
               <CardVarIta titleFrom="Varre-Sai" titleTo="Itaperuna" />
+              <CardItaPorc titleFrom="Itaperuna" titleTo="Porciúncula" />
               <CardItaVar titleFrom="Itaperuna" titleTo="Varre-Sai" />
             </div>
             <Footer />

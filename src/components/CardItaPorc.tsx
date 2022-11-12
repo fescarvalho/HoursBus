@@ -21,7 +21,7 @@ const CardItaPorc = ({ titleTo, titleFrom }: CardProps) => {
       <div className={styles.cardContent}>
         <ul className={styles.list}>
           <h2>
-            <span></span>Manha<span></span>
+            <span></span>Manhã<span></span>
           </h2>
           {ItaperunaPorciuncula.Manhã.map((item) => (
             <li className={`${item.fds ? styles.active : ""}`} key={item.hr}>
