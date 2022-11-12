@@ -1,10 +1,25 @@
-.app {
+.app-content {
   margin: 0 auto;
   width: 80vw;
   background-color: #edf5f4;
   text-align: center;
 }
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #42435a;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.loader span {
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 .cards {
   margin: 0 auto;
   display: flex;
@@ -22,8 +37,13 @@
   display: block;
   font-size: 1.2rem;
 }
+
+.loading {
+  color: red;
+}
+
 @media (max-width: 900px) {
-  .app {
+  .app-content {
     width: 100%;
   }
 }
