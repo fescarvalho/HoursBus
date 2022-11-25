@@ -8,9 +8,8 @@ const CardVarIta = ({ titleTo, titleFrom }: CardProps) => {
   const [show, setShow] = useState(false);
 
   const showClass = () => {
-    setShow(true);
+    setShow(!show);
   };
-
   return (
     <div className={styles.cardMain}>
       <div className={styles.cardTitle} onClick={showClass}>
@@ -18,7 +17,8 @@ const CardVarIta = ({ titleTo, titleFrom }: CardProps) => {
         <FaArrowDown />
         <h2>{titleTo}</h2>
       </div>
-      <div className={styles.cardContent}>
+
+      <div className={`${show == true ? styles.cardContent : styles.cardContentFalse}`}>
         <ul className={styles.list}>
           <h2>
             <span></span>Manhã<span></span>

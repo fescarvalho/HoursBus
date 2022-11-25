@@ -35,6 +35,7 @@ function App() {
               Horários seguem a mudança feita dia 22/02/2022, de acordo com o aviso
               pregado no guichê da rodoviária de Natividade-RJ
             </p>
+            <span className="avisotwo">CLIQUE NA ROTA PARA VER OS HORÁRIOS</span>
             <div className="cards">
               <CardPorcIta titleFrom="Porciúncula" titleTo="Itaperuna" />
               <CardVarIta titleFrom="Varre-Sai" titleTo="Itaperuna" />

@@ -13,6 +13,10 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+.cardContentFalse {
+  display: none;
+}
+
 .cardTitle {
   width: 90%;
   padding: 0.8rem;
@@ -86,9 +90,6 @@
   align-items: center;
 }
 
-.cardContentFalse {
-  display: none;
-}
 .cardContent p {
   font-family: Poppins, "sans-serif";
   font-size: 1.2rem;

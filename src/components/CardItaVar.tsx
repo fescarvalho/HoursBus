@@ -5,14 +5,20 @@ import { useState } from "react";
 import { ItaperunaVarreSai } from "./../hours-mock.json";
 
 const CardItaVar = ({ titleTo, titleFrom }: CardProps) => {
+  const [show, setShow] = useState(false);
+
+  const showClass = () => {
+    setShow(!show);
+  };
   return (
     <div className={styles.cardMain}>
-      <div className={styles.cardTitle}>
+      <div className={styles.cardTitle} onClick={showClass}>
         <h2>{titleFrom}</h2>
         <FaArrowDown />
         <h2>{titleTo}</h2>
       </div>
-      <div className={styles.cardContent}>
+
+      <div className={`${show == true ? styles.cardContent : styles.cardContentFalse}`}>
         <ul className={styles.list}>
           <h2>
             <span></span>Manhã<span></span>

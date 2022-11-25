@@ -1,6 +1,7 @@
 .app-content {
   margin: 0 auto;
   width: 80vw;
+  height: 100vh;
   background-color: #edf5f4;
   text-align: center;
 }
@@ -39,6 +40,21 @@
   color: red;
 }
 
+.app .avisotwo {
+  font-family: Poppins, sans-serif;
+  color: red;
+  font-weight: bold;
+  animation: anime 0.3s infite;
+}
+
+@keyframes anime {
+  0% {
+    color: transparent;
+  }
+  100% {
+    color: red;
+  }
+}
 @media (max-width: 900px) {
   .app-content {
     width: 100%;
