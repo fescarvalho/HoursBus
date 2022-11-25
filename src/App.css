@@ -23,6 +23,8 @@
 }
 .cards {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -48,15 +50,26 @@
 }
 
 @keyframes anime {
-  0% {
-    color: transparent;
-  }
-  100% {
+  from {
     color: red;
+  }
+  to {
+    color: transparent;
   }
 }
 @media (max-width: 900px) {
   .app-content {
     width: 100%;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+@media (max-width: 350px) {
+  .app .avisotwo {
+ font-size: .9rem
   }
 }
