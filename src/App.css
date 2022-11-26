@@ -42,20 +42,21 @@
   color: red;
 }
 
-.app .avisotwo {
+.avisotwo  {
   font-family: Poppins, sans-serif;
   color: red;
   font-weight: bold;
-  animation: anime 0.3s infite;
+  animation: anime .9s linear infinite;
 }
 
 @keyframes anime {
+  to{
+    color: black;
+  }
   from {
     color: red;
   }
-  to {
-    color: transparent;
-  }
+  
 }
 @media (max-width: 900px) {
   .app-content {

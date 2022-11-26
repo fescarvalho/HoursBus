@@ -2,11 +2,11 @@
   "PorciunculaItaperuna": {
     "Manhã": [
       {
-        "hr": "05:15",
+        "hr": "05:15h",
         "fds": true
       },
       {
-        "hr": "06:20",
+        "hr": "06:20h",
         "fds": true
       },
       {
@@ -52,7 +52,7 @@
   "ItaperunaPorciuncula": {
     "Manhã": [
       {
-        "hr": "06:00",
+        "hr": "06:00h",
         "fds": true
       },
       {
@@ -103,7 +103,7 @@
   "VarreSaiItaperuna": {
     "Manhã": [
       {
-        "hr": "06:00",
+        "hr": "06:00h",
         "fds": true
       },
       {
