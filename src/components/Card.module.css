@@ -12,6 +12,20 @@
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+.cardMainActive {
+  min-width: 25rem;
+  height: 100%;
+  margin: 5rem 10rem;
+  background-color: #7f8595;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(238, 159, 46, 0.19) 0px 1px 2px, rgba(238, 159, 46, 0.23) 0px 6px 6px;
+}
 .cardContent {
   transition: all 1s;
 }
@@ -33,6 +47,22 @@
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   font-size: 1rem;
+}
+
+.cardTitleActive {
+  width: 90%;
+  padding: 0.8rem;
+  color: #ee9f2e;
+  background-color: #1a1b26;
+  border-radius: 5px;
+  top: -70px;
+  position: absolute;
+  box-shadow: rgba(238, 159, 46, 0.8) 0px -2px 5px, rgba(238, 159, 46, 0.23) 0px 6px 6px;
+  font-family: Poppins, "sans-serif";
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: all 0.2s ease-out;
 }
 
 .list {

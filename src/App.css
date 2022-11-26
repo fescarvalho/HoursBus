@@ -51,7 +51,7 @@
 
 @keyframes anime {
   to {
-    color: black;
+    color: #000;
   }
   from {
     color: red;
