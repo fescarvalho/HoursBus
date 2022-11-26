@@ -12,6 +12,9 @@
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+.cardContent {
+  transition: all 1s;
+}
 
 .cardContentFalse {
   display: none;
@@ -23,7 +26,7 @@
   color: #fff;
   background-color: #42435a;
   border-radius: 5px;
-  top: -65px;
+  top: -70px;
   position: absolute;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   font-family: Poppins, "sans-serif";
@@ -142,6 +145,7 @@
   .cardTitle {
     width: 90%;
     padding: 0.5rem;
+    top: -40px;
     color: #fff;
     background-color: #42435a;
     letter-spacing: 0.1rem;
