@@ -1,0 +1,27 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #42435a;
+}
+
+.loading {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.loading svg {
+  width: 200px;
+  height: 200px;
+}
