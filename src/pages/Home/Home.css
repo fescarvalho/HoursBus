@@ -1,11 +1,9 @@
 .app-content {
   margin: 0 auto;
-  background-color: #edf5f4;
-  text-align: center;
-}
-.app-content2 {
-  min-height: 100vh;
   width: 80vw;
+  background-color: #edf5f4;
+
+  text-align: center;
 }
 .loader {
   width: 100%;
@@ -34,6 +32,8 @@
   font-family: Poppins, sans-serif;
   margin-bottom: 2rem;
   padding: 0 1rem;
+  background-color: #ddd;
+  border-radius: 5px;
 }
 .app .aviso span {
   display: block;
@@ -50,6 +50,9 @@
   font-weight: bold;
   animation: anime 0.9s linear infinite;
 }
+.avisotwo.circleaviso {
+  margin-bottom: 1rem;
+}
 
 @keyframes anime {
   to {
@@ -60,21 +63,8 @@
   }
 }
 @media (max-width: 900px) {
-  .app-content,
-  .app-content2 {
+  .app-content {
     width: 100%;
-  }
-  .cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .cardcirle {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }
 @media (max-width: 350px) {

@@ -1,5 +1,6 @@
 .footer {
-  width: 100%;
+  margin: 5rem 0 0 auto;
+
   height: 4rem;
   background-color: #42435a;
   display: flex;
@@ -43,6 +44,7 @@
 
 @media (max-width: 500px) {
   .footer {
+    width: 100vw;
     flex-direction: column;
     gap: 0.5rem;
   }

@@ -1,8 +1,7 @@
-.cardMain,
 .cardMainCircle {
   min-width: 25rem;
   height: 100%;
-  margin: 5rem 10rem;
+  margin: 4rem 0;
   background-color: #7f8595;
   padding: 1rem;
   position: relative;
@@ -14,13 +13,13 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.cardMainActive {
-  min-width: 25rem;
+.cardMainActiveCircle {
   height: 100%;
-  margin: 5rem 10rem;
+  margin: 4rem 0;
   background-color: #7f8595;
   padding: 1rem;
   position: relative;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,51 +28,48 @@
   box-shadow: rgba(238, 159, 46, 0.19) 0px 1px 2px, rgba(238, 159, 46, 0.23) 0px 6px 6px;
 }
 
-.cardContent {
+.cardContentCircle {
   transition: all 1s ease-out;
 }
 
-.cardContentFalse,
-.cardContentFalseCirle {
+.cardContentCircleFalse,
+.cardContentCircleFalse {
   display: none;
 }
 
-.cardTitle {
+.cardTitleCircle {
   width: 90%;
   padding: 0.8rem;
   color: #fff;
+  top: -2rem;
   background-color: #42435a;
   border-radius: 5px;
-  top: -70px;
   position: absolute;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   font-family: Poppins, "sans-serif";
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  font-size: 1rem;
-}
-.cardTitleCircle {
-  top: -200px;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
-.cardTitleActive {
+.cardTitleActiveCircle {
   width: 90%;
   padding: 0.8rem;
   color: #ee9f2e;
+
+  top: -3rem;
   background-color: #1a1b26;
   border-radius: 5px;
-  top: -70px;
   position: absolute;
   box-shadow: rgba(238, 159, 46, 0.8) 0px -2px 5px, rgba(238, 159, 46, 0.23) 0px 6px 6px;
   font-family: Poppins, "sans-serif";
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.8rem;
   transition: all 0.2s ease-out;
 }
 
-.list {
+.listCircle {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -81,24 +77,24 @@
   margin: 45px 0 20px 0;
 }
 
-.cardContent h2 {
+.cardContentCircle h2 {
   font-family: Poppins, "sans-serif";
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.list h2 span,
-.listDown h2 span {
+.listCircle h2 span,
+.listDownCircle h2 span {
   width: 10px;
   height: 2px;
   background-color: #f0d467;
   margin-right: 5px;
 }
-.noite {
+.noiteCircle {
   margin-top: 1rem;
 }
-.listDown {
+.listDownCircle {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -106,8 +102,8 @@
   margin-bottom: 20px;
 }
 
-.list li,
-.listDown li {
+.listCircle li,
+.listDownCircle li {
   width: 10rem;
   margin-top: 10px;
   background-color: #fff;
@@ -118,8 +114,8 @@
   justify-content: center;
   align-items: center;
 }
-.list .active,
-.listDown .active {
+.listCircle .active,
+.listDownCircle .active {
   width: 10rem;
   margin-top: 10px;
   background-color: #ee9f2e;
@@ -131,75 +127,79 @@
   align-items: center;
 }
 
-.cardContent p {
+.cardContentCircle p {
   font-family: Poppins, "sans-serif";
   font-size: 1.2rem;
-  color: #000;
+  color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cardContent span {
+.cardContentCircle span {
   width: 15px;
   height: 15px;
-  background-color: #ee9f2e;
+  background-color: transparent;
+
   margin-right: 5px;
 }
 
 @media (max-width: 500px) {
-  .cardContent p {
+  .cardContentCircle p {
     font-size: 1rem;
   }
 
-  .cardMain,
-  .cardMainActive {
+  .cardMainActiveCircle {
     min-width: 24rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     background-color: #7f8595;
     padding: 1.2rem;
   }
 
-  .cardContent span {
+  .cardContentCircle span {
     width: 12px;
     height: 12px;
-    background-color: #ee9f2e;
+    background-color: transparent;
   }
 }
 @media (max-width: 390px) {
-  .cardContent p {
+  .cardContentCircle p {
     font-size: 0.8rem;
   }
-
-  .cardMain,
-  .cardMainActive {
+  .cardMainActiveCircle {
+    margin-bottom: 7rem;
+  }
+  .cardMainCircle,
+  .cardMainActiveCircle {
     min-width: 18rem;
-    margin-bottom: 2rem;
     background-color: #7f8595;
     padding: 1rem;
   }
-  .cardContent span {
+  .cardMainActiveCircle {
+    margin: 4rem 0;
+  }
+  .cardContentCircle span {
     width: 12px;
     height: 12px;
-    background-color: #ee9f2e;
+    background-color: transparent;
   }
-  .cardTitle {
+  .cardTitleCircle {
     width: 90%;
     padding: 0.5rem;
-    top: -40px;
+
     color: #fff;
     background-color: #42435a;
     letter-spacing: 0.1rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
-  .cardTitleActive {
+  .cardTitleActiveCircle {
     width: 90%;
     padding: 0.5rem;
-    top: -40px;
+    top: -70px;
     color: #fff;
     background-color: #42435a;
     letter-spacing: 0.1rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #ee9f2e;
     background-color: #1a1b26;
   }
