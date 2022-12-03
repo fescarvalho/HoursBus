@@ -1,5 +1,6 @@
 import CardCircularPop from "../../components/CardCircularPop";
 import { motion } from "framer-motion";
+import CardCircularFio from "../../components/CardCircularFio";
 const Circular = () => {
   return (
     <motion.div
@@ -20,7 +21,7 @@ const Circular = () => {
 
         <p className="avisotwo circleaviso">CLIQUE NA ROTA PARA VER OS HORÁRIOS</p>
         <CardCircularPop titleFrom="Popular Nova" titleTo="Cantinho do Fiorello" />
-        <CardCircularPop titleFrom="Cantinho do Fiorello" titleTo="Popular Nova" />
+        <CardCircularFio titleFrom="Cantinho do Fiorello" titleTo="Popular Nova" />
       </div>
     </motion.div>
   );

@@ -47,6 +47,10 @@ const CardCircularFio = ({ titleTo, titleFrom }: CardProps) => {
             <li key={item.hr}>{item.hr}</li>
           ))}
         </ul>
+
+        <p>
+          <span></span>Também aos domingos e feriados
+        </p>
       </div>
     </div>
   );
