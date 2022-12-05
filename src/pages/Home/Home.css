@@ -1,7 +1,7 @@
 .app-content {
   margin: 0 auto;
   width: 80vw;
-  background-color: #edf5f4;
+  background-color: var(--backgroundOne);
 
   text-align: center;
 }
@@ -9,7 +9,7 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  background-color: #42435a;
+  background-color: var(--backgroundOne);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -32,7 +32,7 @@
   font-family: Poppins, sans-serif;
   margin-bottom: 2rem;
   padding: 0 1rem;
-  background-color: #ddd;
+  background-color: var(--backgroundThree);
   border-radius: 5px;
 }
 .app .aviso span {
@@ -41,12 +41,12 @@
 }
 
 .loading {
-  color: red;
+  color: var(--avisoloading);
 }
 
 .avisotwo {
   font-family: Poppins, sans-serif;
-  color: red;
+  color: var(--avisoloading);
   font-weight: bold;
   animation: anime 0.9s linear infinite;
 }
@@ -56,10 +56,10 @@
 
 @keyframes anime {
   to {
-    color: #000;
+    color: var(--animeColorTo);
   }
   from {
-    color: red;
+    color: var(--animeColorFrom);
   }
 }
 @media (max-width: 900px) {

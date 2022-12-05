@@ -2,12 +2,12 @@
   margin: 5rem 0 0 auto;
 
   height: 4rem;
-  background-color: #42435a;
+  background-color: var(--backgroundOne);
   display: flex;
   gap: 3rem;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: var(--white);
 }
 
 .footer h4 {
@@ -24,12 +24,12 @@
 .footer .social a {
   font-size: 2rem;
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
   margin: 0 10px;
   transition: all 0.2s;
 }
 .footer .social a:hover {
-  color: #ee9f2e;
+  color: var(--colorDestaq);
   animation: rotate 0.2s linear;
 }
 

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Rotas from "./Rotas";
 import Loader from "./components/Loading/Loading";
 import "./App.css";
+import "./baseColors.css";
 
 function App() {
   const [loading, setLoading] = useState(false);

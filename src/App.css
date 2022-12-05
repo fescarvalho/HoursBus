@@ -1,6 +1,6 @@
 .app-content {
   margin: 0 auto;
-  background-color: #edf5f4;
+  background-color: var(--backgroundTwo);
   text-align: center;
 }
 .app-content2 {
@@ -11,7 +11,7 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  background-color: #42435a;
+  background-color: var(--backgroundOne);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -53,10 +53,10 @@
 
 @keyframes anime {
   to {
-    color: #000;
+    color: var(--animeColorTo);
   }
   from {
-    color: red;
+    color: var(--animeColorFrom);
   }
 }
 @media (max-width: 900px) {

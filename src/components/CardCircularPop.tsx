@@ -1,4 +1,5 @@
 import styles from "./CardCircle.module.css";
+
 import { FaArrowDown } from "react-icons/fa";
 import { CardProps } from "../interface";
 import { useState } from "react";

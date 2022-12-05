@@ -2,7 +2,7 @@
   min-width: 25rem;
   height: 100%;
   margin: 4rem 0;
-  background-color: #7f8595;
+  background-color: var(--backgroundFour);
   padding: 1rem;
   position: relative;
   display: flex;
@@ -10,13 +10,13 @@
   align-items: center;
   text-align: center;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: var(--boxShadow);
 }
 
 .cardMainActiveCircle {
   height: 100%;
   margin: 4rem 0;
-  background-color: #7f8595;
+  background-color: var(--backgroundFour);
   padding: 1rem;
   position: relative;
   display: flex;
@@ -24,7 +24,7 @@
   align-items: center;
   text-align: center;
   border-radius: 5px;
-  box-shadow: rgba(238, 159, 46, 0.19) 0px 1px 2px, rgba(238, 159, 46, 0.23) 0px 6px 6px;
+  box-shadow: var(--boxShadowTwo);
 }
 
 .cardContentCircle {
@@ -39,12 +39,12 @@
 .cardTitleCircle {
   width: 90%;
   padding: 0.8rem;
-  color: #fff;
+  color: var(--white);
   top: -2rem;
-  background-color: #42435a;
+  background-color: var(--backgroundOne);
   border-radius: 5px;
   position: absolute;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: var(--boxShadowThree);
   font-family: Poppins, "sans-serif";
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -54,13 +54,13 @@
 .cardTitleActiveCircle {
   width: 90%;
   padding: 0.8rem;
-  color: #ee9f2e;
+  color: var(--colorDestaq);
 
   top: -3rem;
-  background-color: #1a1b26;
+  background-color: var(--backgroundFive);
   border-radius: 5px;
   position: absolute;
-  box-shadow: rgba(238, 159, 46, 0.8) 0px -2px 5px, rgba(238, 159, 46, 0.23) 0px 6px 6px;
+  box-shadow: var(--boxShadowFour);
   font-family: Poppins, "sans-serif";
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -87,7 +87,7 @@
 .listDownCircle h2 span {
   width: 10px;
   height: 2px;
-  background-color: #f0d467;
+  background-color: var(--backgroundSix: );
   margin-right: 5px;
 }
 .noiteCircle {
@@ -105,7 +105,7 @@
 .listDownCircle li {
   width: 10rem;
   margin-top: 10px;
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 5px;
   font-family: Poppins, "sans-serif";
   font-weight: bold;
@@ -117,7 +117,7 @@
 .listDownCircle .active {
   width: 10rem;
   margin-top: 10px;
-  background-color: #ee9f2e;
+  background-color: (--colorDestaq);
   border-radius: 5px;
   font-family: Poppins, "sans-serif";
   font-weight: bold;
@@ -151,7 +151,7 @@
   .cardMainActiveCircle {
     min-width: 24rem;
     margin-bottom: 3rem;
-    background-color: #7f8595;
+    background-color: var(--backgroundFour);
     padding: 1.2rem;
   }
 
@@ -171,7 +171,7 @@
   .cardMainCircle,
   .cardMainActiveCircle {
     min-width: 18rem;
-    background-color: #7f8595;
+    background-color: var(--backgroundFour);
     padding: 1rem;
   }
   .cardMainActiveCircle {
@@ -186,8 +186,8 @@
     width: 90%;
     padding: 0.5rem;
 
-    color: #fff;
-    background-color: #42435a;
+    color: var(--white);
+    background-color: var(--backgroundOne);
     letter-spacing: 0.1rem;
     font-size: 0.7rem;
   }
@@ -195,11 +195,11 @@
     width: 90%;
     padding: 0.5rem;
     top: -70px;
-    color: #fff;
-    background-color: #42435a;
+    color: var(--white);
+    background-color: var(--backgroundFour);
     letter-spacing: 0.1rem;
     font-size: 0.7rem;
-    color: #ee9f2e;
-    background-color: #1a1b26;
+    color: var(--colorDestaq);
+    background-color: (--backgroundFive: );
   }
 }

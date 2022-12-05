@@ -1,0 +1,26 @@
+:root {
+  /* BACKGROUND */
+  --backgroundOne: #42435a;
+  --backgroundTwo: #edf5f4;
+  --backgroundThree: #ddd;
+  --backgroundFour: #7f8595;
+  --backgroundFive: #1a1b26;
+  --backgroundSix: #f0d467;
+  --backgroundSeven: #31323f;
+
+  /* COLORS */
+  --animeColorTo: #000;
+  --animeColorFrom: red;
+  --avisoloading: red;
+  --white: #fff;
+  --colorDestaq: #ee9f2e;
+  --textColor: #303142;
+
+  /* BOXSHADOWN */
+  --boxShadowFour: rgba(238, 159, 46, 0.8) 0px -2px 5px,
+    rgba(238, 159, 46, 0.23) 0px 6px 6px;
+  --boxShadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  --boxShadowTwo: rgba(238, 159, 46, 0.19) 0px 1px 2px,
+    rgba(238, 159, 46, 0.23) 0px 6px 6px;
+  --boxShadowThree: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
