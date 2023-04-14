@@ -1,26 +1,135 @@
 {
-  "PorciunculaItaperuna": {
+  "ItaperunaNatividade": {
     "Manhã": [
       {
-        "hr": "05:15h",
-        "fds": true
-      },
-      {
-        "hr": "06:20h",
-        "fds": true
+        "hr": "06:00h",
+        "fds": false
       },
       {
         "hr": "07:30h",
-        "fds": true
+        "fds": false
       },
       {
-        "hr": "09:00h",
+        "hr": "08:00h",
+        "fds": false
+      },
+      {
+        "hr": "08:20h",
         "fds": false
       },
 
       {
+        "hr": "09:00h",
+        "fds": false
+      },
+      {
+        "hr": "10:00h",
+        "fds": false
+      },
+      {
         "hr": "10:30h",
-        "fds": true
+        "fds": false
+      },
+      {
+        "hr": "11:00h",
+        "fds": false
+      }
+    ],
+    "Tarde": [
+      {
+        "hr": "12:00h",
+        "fds": false
+      },
+      {
+        "hr": "13:30h",
+        "fds": false
+      },
+      {
+        "hr": "14:00h",
+        "fds": false
+      },
+      {
+        "hr": "15:00h",
+        "fds": false
+      },
+      {
+        "hr": "16:30h",
+        "fds": false
+      },
+      {
+        "hr": "16:40h",
+        "fds": false
+      },
+      {
+        "hr": "17:00h",
+        "fds": false
+      }
+    ],
+    "Noite": [
+      {
+        "hr": "18:00h",
+        "fds": false
+      },
+      {
+        "hr": "18:30h",
+        "fds": false
+      },
+      {
+        "hr": "19:00h",
+        "fds": false
+      },
+      {
+        "hr": "20:15h",
+        "fds": false
+      }
+    ]
+  },
+  "NatividadeItaperuna": {
+    "Manhã": [
+      {
+        "hr": "05:10h",
+        "fds": false
+      },
+      {
+        "hr": "06:00h",
+        "fds": false
+      },
+      {
+        "hr": "06:10h",
+        "fds": false
+      },
+      {
+        "hr": "06:30h",
+        "fds": false
+      },
+
+      {
+        "hr": "06:45h",
+        "fds": false
+      },
+      {
+        "hr": "07:30h",
+        "fds": false
+      },
+      {
+        "hr": "07:40h",
+        "fds": false
+      },
+      {
+        "hr": "09:10h",
+        "fds": false
+      },
+      {
+        "hr": "10:00h",
+        "fds": false
+      },
+      {
+        "hr": "10:35h",
+        "fds": false
+      },
+      {
+        "hr": "10:40h",
+        "fds": false
       }
     ],
     "Tarde": [
@@ -29,8 +138,81 @@
         "fds": false
       },
       {
+        "hr": "12:35h",
+        "fds": false
+      },
+      {
+        "hr": "12:45h",
+        "fds": false
+      },
+      {
+        "hr": "13:45h",
+        "fds": false
+      },
+      {
+        "hr": "15:10h",
+        "fds": false
+      },
+      {
+        "hr": "16:40h",
+        "fds": false
+      }
+    ],
+    "Noite": [
+      {
+        "hr": "18:15h",
+        "fds": false
+      }
+    ]
+  },
+  "PorciunculaItaperuna": {
+    "Manhã": [
+      {
+        "hr": "05:00h",
+        "fds": false
+      },
+      {
+        "hr": "05:50h",
+        "fds": false
+      },
+      {
+        "hr": "06:00h",
+        "fds": false
+      },
+      {
+        "hr": "07:20h",
+        "fds": false
+      },
+
+      {
+        "hr": "07:30h",
+        "fds": false
+      },
+      {
+        "hr": "09:00h",
+        "fds": false
+      },
+      {
+        "hr": "10:20h",
+        "fds": false
+      },
+      {
+        "hr": "10:30h",
+        "fds": false
+      }
+    ],
+    "Tarde": [
+      {
+        "hr": "12:20h",
+        "fds": false
+      },
+      {
+        "hr": "12:30h",
+        "fds": false
+      },
+      {
         "hr": "13:30h",
-        "fds": true
+        "fds": false
       },
       {
         "hr": "15:00h",
@@ -38,7 +220,7 @@
       },
       {
         "hr": "16:30h",
-        "fds": true
+        "fds": false
       }
     ],
     "Noite": [
@@ -48,20 +230,27 @@
       }
     ]
   },
-
   "ItaperunaPorciuncula": {
     "Manhã": [
       {
         "hr": "06:00h",
-        "fds": true
+        "fds": false
       },
       {
         "hr": "07:30h",
         "fds": false
       },
       {
+        "hr": "08:20h",
+        "fds": false
+      },
+      {
         "hr": "09:00h",
-        "fds": true
+        "fds": false
+      },
+      {
+        "hr": "10:00h",
+        "fds": false
       },
 
       {
@@ -72,7 +261,7 @@
     "Tarde": [
       {
         "hr": "12:00h",
-        "fds": true
+        "fds": false
       },
 
       {
@@ -81,30 +270,37 @@
       },
       {
         "hr": "15:00h",
-        "fds": true
+        "fds": false
       },
       {
         "hr": "16:30h",
+        "fds": false
+      },
+      {
+        "hr": "16:40h",
         "fds": false
       }
     ],
     "Noite": [
       {
         "hr": "18:00h",
-        "fds": true
+        "fds": false
       },
       {
         "hr": "19:00h",
-        "fds": true
+        "fds": false
+      },
+      {
+        "hr": "20:15h",
+        "fds": false
       }
     ]
   },
-
   "VarreSaiItaperuna": {
     "Manhã": [
       {
         "hr": "06:00h",
-        "fds": true
+        "fds": false
       },
       {
         "hr": "09:30h",
@@ -115,11 +311,11 @@
     "Tarde": [
       {
         "hr": "12:00h",
-        "fds": true
+        "fds": false
       },
       {
         "hr": "16:00h",
-        "fds": true
+        "fds": false
       }
     ]
   },
@@ -127,7 +323,7 @@
     "Manhã": [
       {
         "hr": "08:00h",
-        "fds": true
+        "fds": false
       },
       {
         "hr": "10:30h",
@@ -137,11 +333,27 @@
     "Tarde": [
       {
         "hr": "14:00h",
-        "fds": true
+        "fds": false
       },
       {
         "hr": "18:30h",
-        "fds": true
+        "fds": false
+      }
+    ]
+  },
+  "ItaperunaQuerendo": {
+    "Tarde": [
+      {
+        "hr": "17:00h",
+        "fds": false
+      }
+    ]
+  },
+  "QuerendoItaperuna": {
+    "Manhã": [
+      {
+        "hr": "06:00h",
+        "fds": false
       }
     ]
   }

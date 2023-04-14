@@ -23,6 +23,7 @@ const CardPorcIta = ({ titleTo, titleFrom }: CardProps) => {
 
       <div className={`${show == true ? styles.cardContent : styles.cardContentFalse}`}>
         <ul className={styles.list}>
+          <p>HORARIOS DE SEGUNDA A SEXTA</p>
           <h2>
             <span></span>Manhã<span></span>
           </h2>
@@ -52,9 +53,6 @@ const CardPorcIta = ({ titleTo, titleFrom }: CardProps) => {
             </li>
           ))}
         </ul>
-        <p>
-          <span></span>Também aos domingos e feriados
-        </p>
       </div>
     </div>
   );

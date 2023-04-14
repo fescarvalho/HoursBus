@@ -2,9 +2,9 @@ import styles from "./Card.module.css";
 import { FaArrowDown } from "react-icons/fa";
 import { CardProps } from "../interface";
 import { useState } from "react";
-import { VarreSaiItaperuna } from "./../hours-mock.json";
+import { QuerendoItaperuna } from "./../hours-mock.json";
 
-const CardVarIta = ({ titleTo, titleFrom }: CardProps) => {
+const CardQueIta = ({ titleTo, titleFrom }: CardProps) => {
   const [show, setShow] = useState(false);
 
   const showClass = () => {
@@ -27,17 +27,7 @@ const CardVarIta = ({ titleTo, titleFrom }: CardProps) => {
           <h2>
             <span></span>Manhã<span></span>
           </h2>
-          {VarreSaiItaperuna.Manhã.map((item) => (
-            <li className={`${item.fds ? styles.active : ""}`} key={item.hr}>
-              {item.hr}
-            </li>
-          ))}
-        </ul>
-        <ul className={styles.listDown}>
-          <h2>
-            <span></span>Tarde<span></span>
-          </h2>
-          {VarreSaiItaperuna.Tarde.map((item) => (
+          {QuerendoItaperuna.Manhã.map((item) => (
             <li className={`${item.fds ? styles.active : ""}`} key={item.hr}>
               {item.hr}
             </li>
@@ -48,4 +38,4 @@ const CardVarIta = ({ titleTo, titleFrom }: CardProps) => {
   );
 };
 
-export default CardVarIta;
+export default CardQueIta;

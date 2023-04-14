@@ -81,6 +81,30 @@
   margin: 45px 0 20px 0;
 }
 
+.list p {
+  font-size: 2rem;
+  margin: 10px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.list p:before,
+.list p:after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 5px;
+  font-size: 2rem;
+  margin: 10px 0;
+  background: #ee9f2e;
+}
+.list p:before {
+  left: -20px;
+}
+.list p:after {
+  right: -20px;
+}
+
 .cardContent h2 {
   font-family: Poppins, "sans-serif";
   display: flex;
@@ -145,6 +169,10 @@
   height: 15px;
   background-color: var(--colorDestaq);
   margin-right: 5px;
+}
+
+#aviso {
+  font-size: 2rem;
 }
 
 @media (max-width: 500px) {

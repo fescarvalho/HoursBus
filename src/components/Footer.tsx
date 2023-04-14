@@ -5,7 +5,7 @@ type Props = {};
 const Footer = (props: Props) => {
   return (
     <div className={styles.footer}>
-      <h4>Desenvolvido por &copy;Fernando Carvalho </h4>
+      <h4>Desenvolvido por Fernando Carvalho </h4>
       <ul className={styles.social}>
         <a href="https://www.instagram.com/fescarv/" target="_blanck">
           <li>
