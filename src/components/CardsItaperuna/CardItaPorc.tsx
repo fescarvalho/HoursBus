@@ -1,15 +1,16 @@
-import styles from "./Card.module.css";
+import styles from "../Card.module.css";
 import { FaArrowDown } from "react-icons/fa";
-import { CardProps } from "../interface";
+import { CardProps } from "../../interface";
 import { useState } from "react";
-import { ItaperunaVarreSai } from "./../hours-mock.json";
+import { ItaperunaPorciuncula } from "./../../hours-mock.json";
 
-const CardItaVar = ({ titleTo, titleFrom }: CardProps) => {
+const CardItaPorc = ({ titleTo, titleFrom }: CardProps) => {
   const [show, setShow] = useState(false);
 
   const showClass = () => {
     setShow(!show);
   };
+
   return (
     <div className={`${show === true ? styles.cardMainActive : styles.cardMain}`}>
       <div
@@ -27,7 +28,7 @@ const CardItaVar = ({ titleTo, titleFrom }: CardProps) => {
           <h2>
             <span></span>Manhã<span></span>
           </h2>
-          {ItaperunaVarreSai.Manhã.map((item) => (
+          {ItaperunaPorciuncula.Manhã.map((item) => (
             <li className={`${item.fds ? styles.active : ""}`} key={item.hr}>
               {item.hr}
             </li>
@@ -37,7 +38,17 @@ const CardItaVar = ({ titleTo, titleFrom }: CardProps) => {
           <h2>
             <span></span>Tarde<span></span>
           </h2>
-          {ItaperunaVarreSai.Tarde.map((item) => (
+          {ItaperunaPorciuncula.Tarde.map((item) => (
+            <li className={`${item.fds ? styles.active : ""}`} key={item.hr}>
+              {item.hr}
+            </li>
+          ))}
+        </ul>
+        <ul className={styles.listDown}>
+          <h2>
+            <span></span>Noite<span></span>
+          </h2>
+          {ItaperunaPorciuncula.Noite.map((item) => (
             <li className={`${item.fds ? styles.active : ""}`} key={item.hr}>
               {item.hr}
             </li>
@@ -48,4 +59,4 @@ const CardItaVar = ({ titleTo, titleFrom }: CardProps) => {
   );
 };
 
-export default CardItaVar;
+export default CardItaPorc;

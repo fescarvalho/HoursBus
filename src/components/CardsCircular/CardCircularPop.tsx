@@ -1,9 +1,9 @@
 import styles from "./CardCircle.module.css";
 
 import { FaArrowDown } from "react-icons/fa";
-import { CardProps } from "../interface";
+import { CardProps } from "../../interface";
 import { useState } from "react";
-import { PopularNova } from "./../hours-mock-ciruclar.json";
+import { PopularNova } from "./../../hours-mock-ciruclar.json";
 
 const CardCircularPop = ({ titleTo, titleFrom }: CardProps) => {
   const [show, setShow] = useState(false);

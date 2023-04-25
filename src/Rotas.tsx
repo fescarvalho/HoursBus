@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import Itaperuna from "./components/Itaperuna";
 import Circular from "./pages/Circular/Circular";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Natividade from "./components/Natividade";
 
 function Rotas() {
   return (
@@ -15,7 +16,8 @@ function Rotas() {
           <BrowserRouter>
             <Navbar />
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/brasil-natividade" element={<Natividade />} />
+              <Route path="/brasil-geral" element={<Itaperuna />} />
               <Route path="/circular" element={<Circular />} />
             </Routes>
           </BrowserRouter>

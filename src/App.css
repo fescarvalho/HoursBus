@@ -2,6 +2,8 @@
   margin: 0 auto;
   background-color: var(--backgroundTwo);
   text-align: center;
+  width: 80vw;
+  text-align: center;
 }
 .app-content2 {
   min-height: 100vh;

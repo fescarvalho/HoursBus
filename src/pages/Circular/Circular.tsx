@@ -1,6 +1,6 @@
-import CardCircularPop from "../../components/CardCircularPop";
+import CardCircularPop from "../../components/CardsCircular/CardCircularPop";
 import { motion } from "framer-motion";
-import CardCircularFio from "../../components/CardCircularFio";
+import CardCircularFio from "../../components/CardsCircular/CardCircularFio";
 const Circular = () => {
   return (
     <motion.div

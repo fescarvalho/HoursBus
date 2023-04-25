@@ -1,0 +1,215 @@
+{
+  "NatividadeItaperuna": {
+    "horas": [
+      {
+        "hr": "05:15h",
+        "fds": false
+      },
+      {
+        "hr": "06:20h",
+        "fds": false
+      },
+      {
+        "hr": "06:30h",
+        "fds": true
+      },
+      {
+        "hr": "06:50h",
+        "fds": false
+      },
+
+      {
+        "hr": "07:50h",
+        "fds": false
+      },
+      {
+        "hr": "09:20h",
+        "fds": false
+      },
+      {
+        "hr": "10:50h",
+        "fds": true
+      },
+      {
+        "hr": "12:50h",
+        "fds": false
+      },
+      {
+        "hr": "13:50h",
+        "fds": false
+      },
+      {
+        "hr": "15:20h",
+        "fds": false
+      },
+      {
+        "hr": "16:30h",
+        "fds": true
+      },
+      {
+        "hr": "16:50h",
+        "fds": false
+      },
+      {
+        "hr": "18:20h",
+        "fds": false
+      }
+    ],
+    "DomingoseFeriados": [
+      {
+        "hr": "05:15h",
+        "fds": false
+      },
+      {
+        "hr": "06:20h",
+        "fds": false
+      },
+      {
+        "hr": "06:30h",
+        "fds": true
+      },
+
+      {
+        "hr": "07:50h",
+        "fds": false
+      },
+      {
+        "hr": "10:00h",
+        "fds": false
+      },
+
+      {
+        "hr": "10:50h",
+        "fds": false
+      },
+      {
+        "hr": "13:50h",
+        "fds": false
+      },
+
+      {
+        "hr": "16:30h",
+        "fds": true
+      },
+      {
+        "hr": "16:50h",
+        "fds": false
+      }
+    ]
+  },
+  "NatividadePorciuncula": {
+    "horas": [
+      {
+        "hr": "06:30h",
+        "fds": false
+      },
+      {
+        "hr": "08:00h",
+        "fds": false
+      },
+      {
+        "hr": "09:30h",
+        "fds": false
+      },
+      {
+        "hr": "11:30h",
+        "fds": false
+      },
+
+      {
+        "hr": "12:30h",
+        "fds": false
+      },
+      {
+        "hr": "14:00h",
+        "fds": false
+      },
+      {
+        "hr": "15:30h",
+        "fds": false
+      },
+      {
+        "hr": "17:00h",
+        "fds": false
+      },
+      {
+        "hr": "18:30h",
+        "fds": false
+      },
+      {
+        "hr": "19:30h",
+        "fds": false
+      }
+    ],
+    "DomingoseFeriados": [
+      {
+        "hr": "06:30h",
+        "fds": false
+      },
+      {
+        "hr": "09:30h",
+        "fds": false
+      },
+      {
+        "hr": "12:30h",
+        "fds": false
+      },
+
+      {
+        "hr": "15:30h",
+        "fds": false
+      },
+      {
+        "hr": "18:30h",
+        "fds": false
+      },
+
+      {
+        "hr": "19:30h",
+        "fds": false
+      }
+    ]
+  },
+  "NatividadeVarreSai": {
+    "horas": [
+      {
+        "hr": "08:30h",
+        "fds": false
+      },
+      {
+        "hr": "14:30h",
+        "fds": false
+      },
+      {
+        "hr": "19:00h",
+        "fds": false
+      }
+    ]
+  },
+  "NatividadeQuerendo": {
+    "horas": [
+      {
+        "hr": "17:50h",
+        "fds": false
+      }
+    ],
+    "DomingoseFeriados": [
+      {
+        "hr": "12:30h",
+        "fds": false
+      }
+    ]
+  },
+  "NatividadeCampos": {
+    "horas": [
+      {
+        "hr": "05:15h",
+        "fds": false
+      },
+      {
+        "hr": "15:30h",
+        "fds": false
+      }
+    ]
+  }
+}

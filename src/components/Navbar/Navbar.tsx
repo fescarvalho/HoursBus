@@ -5,7 +5,10 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-list">
-        <NavLink to="/">Brasil</NavLink>
+        <NavLink to="/brasil-natividade">Natividade</NavLink>
+      </div>
+      <div className="navbar-list">
+        <NavLink to="/brasil-geral">Itaperuna</NavLink>
       </div>
       <div className="navbar-list">
         <NavLink to="/circular">

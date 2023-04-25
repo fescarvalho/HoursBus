@@ -1,8 +1,8 @@
 import styles from "./CardCircle.module.css";
 import { FaArrowDown } from "react-icons/fa";
-import { CardProps } from "../interface";
+import { CardProps } from "../../interface";
 import { useState } from "react";
-import { Fiorello } from "./../hours-mock-ciruclar.json";
+import { Fiorello } from "./../../hours-mock-ciruclar.json";
 
 const CardCircularFio = ({ titleTo, titleFrom }: CardProps) => {
   const [show, setShow] = useState(false);
