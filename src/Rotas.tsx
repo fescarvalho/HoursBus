@@ -16,7 +16,7 @@ function Rotas() {
           <BrowserRouter>
             <Navbar />
             <Routes>
-              <Route path="/brasil-natividade" element={<Natividade />} />
+              <Route path="/" element={<Natividade />} />
               <Route path="/brasil-geral" element={<Itaperuna />} />
               <Route path="/circular" element={<Circular />} />
             </Routes>
